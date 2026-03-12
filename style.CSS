@@ -1,20 +1,4 @@
 
-:root {
-    --primary-color: #1a1a1a;   
-    --accent-color: #d4af37;    
-    --secondary-color: #2c3e50;  
-    --text-light: #f4f4f4;
-    --text-dark: #333;
-    --bg-light: #ffffff;
-    --shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,6 +18,23 @@ header {
     top: 0;
     z-index: 1000;
     border-bottom: 3px solid var(--accent-color);
+}
+
+:root {
+    --primary-color: #1a1a1a;   
+    --accent-color: #d4af37;    
+    --secondary-color: #2c3e50;  
+    --text-light: #f4f4f4;
+    --text-dark: #333;
+    --bg-light: #ffffff;
+    --shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -441,3 +442,4 @@ footer {
     margin: 15px 0 0 0;
     border: none;
 }
+
